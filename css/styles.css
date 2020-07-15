@@ -1,0 +1,15 @@
+body {
+    background-color: darkseagreen;
+    color: darkolivegreen;
+    /* location */
+    background-image: url("https://www.dropbox.com/s/8bjkrpfxn38c5d0/green-leaves.jpg?raw=1");
+    /* center horizontally and visually */
+    background-position: center center;
+    /* background image does not tile */
+    background-repeat: no repeat;
+    /* background image fixed in the viewport so the image doesn't
+       move when the content's height is greater than the image height */
+    background-attachment: fixed;
+    /* background image will rescale based on container size */
+    background-size: cover;
+}
