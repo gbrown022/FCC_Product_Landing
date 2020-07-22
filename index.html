@@ -11,50 +11,58 @@
         <!-- User story 1: Header element with a corresponding id="header" -->
         <!-- User story 2: Image for the header e.g., company logo -->
             <!-- User story 3: <nav> element with id="nav-bar" -->
-        <nav id="nav-bar" class="flex-container">
-            <a href="#">
-                <img id="header-img" class="logo" height="40" width="150" href="#" src="https://www.dropbox.com/s/30zlrk0uellcdm3/jc_5.png?raw=1" alt="Joyful Cups">
-            </a>
+        <nav id="nav-bar">
             <!-- User story 4: three clickable elements with class "nav-link" -->
-            <ul class="navigation">
+            <img id="header-img" height="35px" width="135px" href="#" src="https://www.dropbox.com/s/30zlrk0uellcdm3/jc_5.png?raw=1" alt="Joyful Cups">
+                <!-- User story 5: clicking on elements takes the user to different locations on the page -->
                 <li><a class="nav-link" href="#home">Home</a></li> 
                 <li><a class="nav-link" href="#about">About</a></li>
                 <li><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+                <li><a class="nav-link" href="#blog">Blog</a></li>
         </nav>
-        <h1>
-            Eco-Friendly Dining Tools
-        </h1>
     </header>
+    
+    <h1 id="home">Eco-Friendly Dining Tools</h1>
 
-    <div id="home">
-        <h2>Home</h2>
-        <p>
-            <iframe id="video" width="400" height="300"
-                src="https://youtu.be/30usWNhfW08">
-            </iframe>
-            Tide tossin' pizzas, whitewash high on the face shack slob. Making it rain soft wetsuit tan lil ripper Dane pipeline. Wax the stick viscious WCT barreling fish Freddy P.. Psych rail to rail rail grab silky smooth new school surfing king of the peak, heavy slice slab. Whippin da yams, carve Jeffreys Bay cheater5 drifting the tail freshie offshore air reverse. WQS foam climb channel send it leash free fall thick. Bro lefts bro best section king of the peak board sand bar Kerrzy stale. Paddle bonk, inside position flow wind conditions dredging smash.
-            Tide tossin' pizzas, whitewash high on the face shack slob. Making it rain soft wetsuit tan lil ripper Dane pipeline. Wax the stick viscious WCT barreling fish Freddy P.. Psych rail to rail rail grab silky smooth new school surfing king of the peak, heavy slice slab. Whippin da yams, carve Jeffreys Bay cheater5 drifting the tail freshie offshore air reverse. WQS foam climb channel send it leash free fall thick. Bro lefts bro best section king of the peak board sand bar Kerrzy stale. Paddle bonk, inside position flow wind conditions dredging smash.
-            Tide tossin' pizzas, whitewash high on the face shack slob. Making it rain soft wetsuit tan lil ripper Dane pipeline. Wax the stick viscious WCT barreling fish Freddy P.. Psych rail to rail rail grab silky smooth new school surfing king of the peak, heavy slice slab. Whippin da yams, carve Jeffreys Bay cheater5 drifting the tail freshie offshore air reverse. WQS foam climb channel send it leash free fall thick. Bro lefts bro best section king of the peak board sand bar Kerrzy stale. Paddle bonk, inside position flow wind conditions dredging smash.
-        </p>
+    <div class="email">
+        <!-- User story #7: add a form with id="form" -->
+        <form id="form" method="GET" action="https://www.freecodecamp.com/email-submit">
+            <!-- User story #8 add an email entry input -->
+            <label for="email">E-mail</label>
+            <!-- User story #9, 10 add placeholder text and HTML5 validation of email -->
+            <input name="email" id="email" placeholder="Enter your email" type="email" required>
+            <!-- User story #11 add id="submit" -->
+            <!-- User story #12 when user clicks submit, email is submitted to a static page" -->
+            <input id="submit" value="Get more info" type="submit" formaction="https://www.freecodecamp.com/email-submit">
+        </form>
     </div>
 
-    <div id="about" name="#about">
+    <div>
+        <!-- User story 6: present an embedded video -->
+        <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/30usWNhfW08?rel=0&amp;controls=0&amp;showinfo=0" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>   
+
+    <div id="about">
         <h2>About</h2>
-        <p>
-            Shacks twin fin barn dog rad, big windup glass tagging doggy door down the line. Duck diving shaka Simpo pitted solid hit Parko oil water pumping. Whippin da yams kook back dooring pumping swell heavy slice barnacle late! WQS water backhand, dawn patrol Ano Nuevo pigdog foam ball free surf. Drop knee set wave chunky Jamie O'Brien wetsuit tan crusty backside hallow inside. Free surf Nat Young casual lip line psyching cheater5 barny rad.
-            Shacks twin fin barn dog rad, big windup glass tagging doggy door down the line. Duck diving shaka Simpo pitted solid hit Parko oil water pumping. Whippin da yams kook back dooring pumping swell heavy slice barnacle late! WQS water backhand, dawn patrol Ano Nuevo pigdog foam ball free surf. Drop knee set wave chunky Jamie O'Brien wetsuit tan crusty backside hallow inside. Free surf Nat Young casual lip line psyching cheater5 barny rad.
-            Shacks twin fin barn dog rad, big windup glass tagging doggy door down the line. Duck diving shaka Simpo pitted solid hit Parko oil water pumping. Whippin da yams kook back dooring pumping swell heavy slice barnacle late! WQS water backhand, dawn patrol Ano Nuevo pigdog foam ball free surf. Drop knee set wave chunky Jamie O'Brien wetsuit tan crusty backside hallow inside. Free surf Nat Young casual lip line psyching cheater5 barny rad.
-        </p>       
+            <p>Pounding fins punt coil up Eddie would go sets legend silky smooth dawn patrol. Pumping standing tall bottom turn tides pose on the nose wave loc Simpo. Left shutting down stale wave of the winter layback hammer blitz freshie. Water open face bottomed out marine layer shack duck diving. Full wrap twin fin Trestles hang 5 urll layback daggers, fun board, reef break. Stoked booties indy nutty tube, heavy slice firing rain jumbled Trestles.</p> 
+            <p>Air drop precise wall shacked rad pump layback daggers. Send it new school Slates twin fin fin jet ski round house cutty, point break. Ice cream headaches J.O.B. power gouge inner bar, outer bar over the reef sandbar. Standing tall, split the peak indy high on the face backhand attack. Dredging lines rain glass legend nose spittin', thruster? Parko vertical wax the stick bottomed out foam ball fins. Off the bottom nice little Freddy P. point break clean face John John Florence fins nose pick DOH?</p>
+            <p>Tide tossin' pizzas, whitewash high on the face shack slob. Making it rain soft wetsuit tan lil ripper Dane pipeline. Wax the stick viscious WCT barreling fish Freddy P.. Psych rail to rail rail grab silky smooth new school surfing king of the peak, heavy slice slab. Whippin da yams, carve Jeffreys Bay cheater5 drifting the tail freshie offshore air reverse. WQS foam climb channel send it leash free fall thick. Bro lefts bro best section king of the peak board sand bar Kerrzy stale. Paddle bonk, inside position flow wind conditions dredging smash.</p>
     </div>
 
     <div id="contact" name="#contact">
         <h2>Contact</h2>
-        <p>
-            Ripping the pit psyched backside attack rain flow. Punt wind swell finner full rote pump wax firing. Soft lip swell Mick Fanning glass quiver flow fighting for the peak frothed full rote. Wax king of the peak set wave heavy slice fish Bells air drop smooth buy my poster, lull in the swell. Shacks, pig dog drop knee marine layer hang 10 clean dry hair paddle out. Bells, lip line smash Owen Wright air reverse barnacle swell, cutback pocket whitewater.
-            Ripping the pit psyched backside attack rain flow. Punt wind swell finner full rote pump wax firing. Soft lip swell Mick Fanning glass quiver flow fighting for the peak frothed full rote. Wax king of the peak set wave heavy slice fish Bells air drop smooth buy my poster, lull in the swell. Shacks, pig dog drop knee marine layer hang 10 clean dry hair paddle out. Bells, lip line smash Owen Wright air reverse barnacle swell, cutback pocket whitewater.
-            Ripping the pit psyched backside attack rain flow. Punt wind swell finner full rote pump wax firing. Soft lip swell Mick Fanning glass quiver flow fighting for the peak frothed full rote. Wax king of the peak set wave heavy slice fish Bells air drop smooth buy my poster, lull in the swell. Shacks, pig dog drop knee marine layer hang 10 clean dry hair paddle out. Bells, lip line smash Owen Wright air reverse barnacle swell, cutback pocket whitewater.
-        </p>
+            <p>Shacks twin fin barn dog rad, big windup glass tagging doggy door down the line. Duck diving shaka Simpo pitted solid hit Parko oil water pumping. Whippin da yams kook back dooring pumping swell heavy slice barnacle late! WQS water backhand, dawn patrol Ano Nuevo pigdog foam ball free surf. Drop knee set wave chunky Jamie O'Brien wetsuit tan crusty backside hallow inside. Free surf Nat Young casual lip line psyching cheater5 barny rad.</p>
+            <p>Lip line rocker rocker rad rock-n-roll cartwheels, backhand attack, urll, rookie Simpo? Air section stomp bro fin knee high tide switch. Slash backside attack chops lines rank. Vertical lefts rippin nose pounding hack a thon don Bells. Stale fish Taj Burrow nutty kick out inside position clean face fins paddle battle, glass. Ride tomb-stoning rip the pit Snapper Rocks fighting for the peak loc.</p>
+            <p>Ice cream headaches paddle Teahupoo, barny rocker casual shinner, nuggets of heaven Jordy Smith king of the peak. Wobbly out the back wax wax the stick, oil, clean face. Poor-fair, nose pick set soft, psyching reef rash. Steeze fins free cranking wave clean rail dig wedge factory Pipe. Freshie goes vertical vertical tube zone fair slob face reef break dry hair paddle out float. Hallow crusty crumble thruster lined up, combos.</p>
+    </div>
+
+    <div id="blog" name="#blog">
+        <h2>Blog</h2>
+            <p>Ripping the pit psyched backside attack rain flow. Punt wind swell finner full rote pump wax firing. Soft lip swell Mick Fanning glass quiver flow fighting for the peak frothed full rote. Wax king of the peak set wave heavy slice fish Bells air drop smooth buy my poster, lull in the swell. Shacks, pig dog drop knee marine layer hang 10 clean dry hair paddle out. Bells, lip line smash Owen Wright air reverse barnacle swell, cutback pocket whitewater.</p>
+            <p>Deadly tide kelp squirt, stuffs the rail double up Trestles monsters paddle battle. Whips one sand bar, pipeline, reef rash vertical rythm fair face wobble bumpy. One wave set king of the peak, clipped kook, snap stoked. Heavy water, whips one fresh stick poor, bunny chow wall. Lull in the swell lines lefts combination bumpy twin keel wind swell. Blonde rigs rank swell shinner stuffs the rail.</p>
+            <p>Pocket board feathered lip surfline glass, offshore. Long period outer bar big finner Bells Jordy Smith pipeline. Rippin king of the peak big fish, open face out the back make the drop. King of the peak fin rail grab lined up alley-oop rookie grommet, buy my poster. Keyhole marine layer hack stuffs the rail line-up tight section air drop. Digs rail urll Dane crumbly lip tide.</p>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>

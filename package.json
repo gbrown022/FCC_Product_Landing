@@ -1,0 +1,23 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "FCC Product Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbrown022/FCC_Product_Landing.git"
+  },
+  "author": "GCB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbrown022/FCC_Product_Landing/issues"
+  },
+  "homepage": "https://github.com/gbrown022/FCC_Product_Landing#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
